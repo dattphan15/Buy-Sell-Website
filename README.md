@@ -1,7 +1,7 @@
 Light Kicks Website
 =========
 
-This Buying and Selling Website was created by Kevin Phan, Elodie Bouthers, and Neil Oribello as part of the Light House Labs Midterm Project. Light Kicks is
+This project was created by Kevin Phan, Elodie Bouthers, and Neil Oribello as part of the Light House Labs Midterm Project. Light Kicks is
 an app where you can put different types of shoes up for sale. This lets buyers find the items they are looking for quickly, and easily contact sellers.
 
 Users Can:
