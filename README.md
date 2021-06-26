@@ -4,21 +4,33 @@ Light Kicks Website
 This project was created by Kevin Phan, Elodie Bouthers, and Neil Oribello as part of the Light House Labs Midterm Project. Light Kicks is
 an app where you can put different types of shoes up for sale. This lets buyers find the items they are looking for quickly, and easily contact sellers.
 
+Midterm Project Requirements:
+-	ES6 for server-side (NodeJS) code
+-	NodeJS
+-	Express
+  --	RESTful routes
+-	One or more CSS or UI "framework"s:
+-	jQuery
+-	A CSS preprocessor such as SASS, Stylus, or PostCSS for styling -- or CSS Custom properties and no CSS preprocessor
+-	PostgreSQL and pg (with promises) for DBMS
+-	git for version control
+
+
 Users Can:
 
-- users can see featured items on a main feed
-- users can filter items by price,
-- users can favourite items to check up on them later, and access a favourites page
-- users can send email to the admin that is listing the item
+- Users can see featured items on a main feed
+- Users can filter items by price,
+- Users can favourite items to check up on them later, and access a favourites page
+- Users can send email to the admin that is listing the item
 
 Admins can:
 
-- add/post items, which can be seen by others.
-- remove/delete items from the site
-- mark items as SOLD!
-- send an email back to the buyer 
+- Add/post items, which can be seen by others.
+- Remove/delete items from the site
+- Mark items as SOLD!
+- Send an email back to the buyer 
 
-Others:
+Additional Features:
 - If a user try to access the http://localhost:8080/admin, or http://localhost:8080/addproduct, without being logged in, an error message will appear: "Unauthorized Access". 
 - If a user doesn't exist in our database and try to login, an error meassage will show : "sorry you are not a user".
 - Only users from our database can login. 
@@ -26,7 +38,7 @@ Others:
 - Once a user logged in, the email@ is appearing in the header.
 - Once a new item is posted by the admin, an alert confirming that the product has been posted is showing up.
 - By clicking on logout, the user can logout.
-- we added a customize logo in the head of the page
+- We added a customize logo in the head of the page
 
 
 ## Screenshots
